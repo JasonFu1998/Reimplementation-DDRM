@@ -25,7 +25,7 @@ def main():
     # ----------------------------------------
 
     model_name              = '256x256_diffusion_uncond'      # ffhq_diffusion | 256x256_diffusion_uncond
-    testset_name            = 'demo_test'                  # 'ffhq_test' | 'imagenet_val' | 'ffhq_val' | 'imagenet_test'
+    testset_name            = 'imagenet_test'                  # 'ffhq_test' | 'imagenet_val' | 'ffhq_val' | 'imagenet_test'
     num_train_timesteps     = 1000
     iter_num                = 20                              # set number of iterations
     skip                    = num_train_timesteps//iter_num   # skip interval
