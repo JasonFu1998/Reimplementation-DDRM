@@ -22,8 +22,8 @@ bash download.sh
 ```
 
 ### Running
+Set hyperparameters internally.
 ```python
-# set hyperparameters internally
 python main_sr.py
 python main_deblur.py
 python main_inpaint.py
